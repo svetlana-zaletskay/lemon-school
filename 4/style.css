@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.main-block{
+	width: 800px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	margin-left: 300px;
+}
+.products{
+	width: inherit;
+}
+.product{
+	border: 2px solid red;
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+	height: 250px;
+	margin: 20px 0 20px 0;
+}   
+.central-el{
+	margin-left: 18px;
+	margin-right: 18px;
+}
