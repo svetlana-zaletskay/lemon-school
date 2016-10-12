@@ -172,6 +172,8 @@
 	font-weight: bold;
 	padding-top: 7px;
 	padding-bottom: 24px;
+	text-decoration: none;
+	color: black;
 }
 .info-img-text{
 	font-family: Arial, sans-serif;
@@ -184,6 +186,9 @@
 .post-block{
 	margin-bottom: 30px;
 	padding-right: 30px;
+}
+.post-block>a{
+	text-decoration: none;
 }
 footer{
 	height: 68px;
