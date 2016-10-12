@@ -127,6 +127,9 @@
 	font-weight: bold;
 	font-size: 26px
 }
+.text-header-margin{
+	margin-bottom: 55px;
+}
 .orange-text-header-two{
 	font-family: Arial, sans-serif;
 	font-size: 22px
@@ -180,6 +183,7 @@
 }
 .post-block{
 	margin-bottom: 30px;
+	padding-right: 30px;
 }
 footer{
 	height: 68px;
