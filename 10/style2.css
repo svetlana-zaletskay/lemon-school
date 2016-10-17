@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+div{
+	margin: 20px;
+}
+.first{
+	width: 200px;
+	height: 50px;
+	border: 4px solid black;
+	position: relative;
+}
+
+.first:before{
+	position: absolute;
+	content:" ";
+	height: 100%;
+	width: 30%;
+	background-color: red;
+}
+
+.first:after{
+	content: " ";
+	position: absolute;
+	height: 43%;
+	width: 7%;
+	background-color: black;
+	top: 12px;
+	right: -14px;
+}
+.second{
+	width: 200px;
+	height: 50px;
+	border: 4px solid black;
+	position: relative;
+}
+.second:before{
+	position: absolute;
+	content:" ";
+	height: 100%;
+	width: 60%;
+	background-color: yellow;
+}
+.second:after{
+	content: " ";
+	position: absolute;
+	height: 43%;
+	width: 7%;
+	background-color: black;
+	top: 12px;
+	right: -14px;
+}
+.thirds{
+	width: 200px;
+	height: 50px;
+	border: 4px solid black;
+	position: relative;
+}
+.thirds:before{
+	position: absolute;
+	content:" ";
+	height: 100%;
+	width: 100%;
+	background-color: green;
+}
+.thirds:after{
+	content: " ";
+	position: absolute;
+	height: 43%;
+	width: 7%;
+	background-color: black;
+	top: 12px;
+	right: -14px;
+}
+.angle{
+	height: 100px;
+	width: 250px;
+	background-color: green;
+	border: green;
+	position: relative;;
+}
+.angle:after{
+	position: absolute;
+	width: 6px;
+	height: 88px;
+	background: green;
+	content: " ";
+	top: 6px;
+	right: -6px;
+}
+.angle:before{
+	position: absolute;
+	width: 6px;
+	height: 88px;
+	background: green;
+	content: " ";
+	top: 6px;
+	left: -6px;
+}
+.input{
+	width: 155px;
+	height: 40px;
+	box-shadow: inset 0 0 31px 14px #ffb3d6, 0 0 1px 2px #fff, 0 0 0px 4px #ffb3d6, 0 0 1px 6px #fff, 0 0 4px 10px #F5F5F5;
+	border-radius: 50px;
+	position: relative;
+}
+.input:after{
+	font-weight: bold;
+	content: "Кнопка";
+	top: 10px;
+	position: absolute;
+	left: 45px;
