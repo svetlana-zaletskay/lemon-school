@@ -1,0 +1,64 @@
+@import "fonts/stylesheet.css";
+html{
+	min-height: 100%;
+}
+body{
+	background-image: linear-gradient(to right, #fff, #e5e5e5);
+}
+table{
+
+	box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.08);
+	width: 1140px;
+	margin: 300px auto;
+	border-collapse: collapse;
+}
+thead{
+	background-color: #fff;
+}
+span{
+	font-family: "monserratlight"; 
+	font-size: 14px;
+	color: #767676;
+}
+.hover_none:hover{
+	background-color: #fff;
+}
+
+td{
+	padding: 16px 0 8px 30px;
+}
+td:hover{
+	color: #dc1f26;
+	background-color: #d4d4d4;
+}
+td:nth-child(even){
+	width: 180px;
+	border-left: 1px solid #f1f1f1;
+}
+th{
+	padding: 26px 0 10px 23px;
+	text-align: left;
+	font-family: "montserratregular";
+	font-size: 13px;
+	color: #ff7b58;
+}
+tr:nth-child(2n){
+	background-color: #fbfbfb;
+}
+tr:hover{
+	background-color: #d4d4d4;
+	color: #dc1f26;
+}
+a{	
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #dc1f26;
+	font-size: 13px;
+}
+a:hover{
+	border-bottom: solid 2px #dc1f26;
+}
+
+
+
+
