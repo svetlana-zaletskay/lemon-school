@@ -1,5 +1,9 @@
 @import "fonts/stylesheet.css";
+
+
+
 html{
+
 	min-height: 100%;
 }
 body{
@@ -16,7 +20,7 @@ thead{
 	background-color: #fff;
 }
 span{
-	font-family: "monserratlight"; 
+	font-family: "Montserrat Light"; 
 	font-size: 14px;
 	color: #767676;
 }
@@ -38,7 +42,7 @@ td:nth-child(even){
 th{
 	padding: 26px 0 10px 23px;
 	text-align: left;
-	font-family: "montserratregular";
+	font-family: "Montserrat Regular";
 	font-size: 13px;
 	color: #ff7b58;
 }
