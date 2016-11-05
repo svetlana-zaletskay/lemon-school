@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	form{
+		font-family: 'Open Sans', sans-serif;
+		border: 1px solid black;
+		width: 400px;
+	}
+	input{
+		width: 300px;
+
+	}
+	label{
+		display: block;
+		padding: 10px 0;
+	}
+	.yes, .no{
+		display: inline-block;
+
+	}
+	.yes-input,.no-input{
+		width: 14px;
+	}
+	button{
+		background-color: #000;
+		color: #fff;
+		border-style: none;
+        border-color: #fff;
+    }
+	</style>
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label class="you-name" for="youName">Ваше имя</label>
+			<input type="text" name="you_name" id="youName" placeholder="Например, Иванов Иван Иванович">
+
+			<label class="work" for="work">Ваш род деятельности</label>
+			<input type="text" name="work" id="work" placeholder="Выращиваю огурцы">
+			
+			<p>Согласны ли вы с условиями?</p>
+			
+			<input class="yes-input" id="radioYES" type="radio" name="gender" value="Yes">
+			<label class="yes">Категорически ДА!</label>
+			
+
+			<input class="no-input" id="radioNO" type="radio" name="gender" value="No">
+			<label class="no">Категорически НЕТ!</label>
+		<div>	
+			<button class="submit" type="button">Отправить</button>
+		</div>
+		</div>
+	</form>
+</body>
+</html>
