@@ -1,0 +1,93 @@
+.user-form{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid #A9A9A9;
+	box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 10px;
+}
+form.user-form label,p{
+	display: block;
+	margin-bottom: 5px;
+	width: 200px;
+	text-align: left;
+	margin-left: 5px;
+}
+form.user-form input,textarea{
+	width: 95%;
+	margin-bottom: 10px;
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea, select{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	width: 95%;
+}
+input:focus, textarea:focus{
+	border-color: #bfbfbf;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); 
+}
+h1{
+	text-align: left;
+	/*margin-left: 10px;*/
+}
+div.gender-div{
+	margin: 10px 0;
+}
+div.gender-div label, div.subscribe-to-new label{
+	display: inline-block;
+	width: auto;
+}
+div.gender-div input, div.subscribe-to-new input{
+	width: auto;
+}
+div.gender-div>input.gender{
+	display: inline-block;
+	width: 21px;
+}
+div.subscribe-to-new label input{
+	margin-left: 5px;
+}
+
+div.gender-div>label.gender-label{
+	display: inline;
+	width: 40px;
+}
+div.subscribe-to-new,div.gender-div{
+	text-align: left;
+}
+form.user-form .gender-div{
+	width: 97%;
+    margin-left: 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+form.user-form .gender-div label{
+	margin-left: 0;
+}
+
+button.submit{
+	background-color: #DCDCDC;
+	width: 97%;
+	height: 38px;
+	border-radius: 3px;
+	border-style: none;
+	border-color: #fff;
+	border: 1px solid #A9A9A9;
+	font-size: 20px;
+	margin-bottom: 19px;
+}
+p{
+	text-align: left;
+}    
+select{
+	width: 97%;
+	display: inline-block;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form class="user-form" action="#">
+		<h1>Fill the form</h1>
+		<label for="yourName">Your Name</label>
+		<input type="text" name="your_name" id="yourName" placeholder="John"/>
+
+		<label>Your Surname</label>
+		<input type="text" name="your_surname" id="yourSurname" placeholder="Doe">
+
+		<label>Your Email</label>
+		<input type="text" name="@mail" id="yourEmail" placeholder="mail@exampel.com"/>
+
+		<label for="yourPassword">Your Password</label>
+		<input type="password" name="your_password" id="yourPassword">
+
+		<label for="aboutYou">Few words about You</label>
+		<textarea name="aboutYou" id="aboutYou" placeholder="Im awesome!"></textarea>
+
+		<label for="yourCountry">Your Country</label>
+		<select name="select" id="yourCountry">
+			<option value="1">UK</option>
+			<option value="2">USA</option>
+			<option value="3">Australia</option>
+		</select>
+
+		<div class="gender-div">
+			<p>Your gender</p>
+			<label><input id="genderRadioMail" class="gender" type="radio" name="gender" value="Male">Male</label>
+
+			<label><input id="genderRadioFemail" class="gender" type="radio" name="gender" value="Female">Female</label>
+
+			<label><input id="genderRadioOther" class="gender" type="radio" name="gender" value="Other">Other</label>
+		</div>
+		<div class="subscribe-to-new">
+			<label>
+				<input type="checkbox" name="subscribeToNewReseller" id="subscribeToNewReseller">Subscribe to newsseller
+			</label>
+		</div>
+		<button class="submit" type="button">Submit</button>
+	</form>
+</body>
+</html>
