@@ -1,0 +1,34 @@
+div.art-installation>.art-installation-left-column{
+	display: inline-block;
+	width: 47.8%;
+	vertical-align: top;
+
+}
+
+.art-installation-left-column>.installation-title>.title-1>{
+	display: block;
+	font-size: 30px;
+	font-family: 'Montserrat Light', arial;
+}
+	
+.art-installation-left-column>.installation-title>.title-2{
+	font-size: 48px;
+	font-family: 'Montserrat Bold', arial;
+}
+.installation-left-column>.text-1{
+	font-family:  'Montserrat Light', arial;
+	font-size: 18px;
+	color: #656565;
+}
+.art-installation-right-colum{
+	display: inline-block;
+	background: url('../image/art-installation.png');
+	display: inline-block;
+    width: 47.8%;
+    height: 561px;
+    background-position-x: 56%;
+    margin-left: 36px;
+}
+div.art-installation{
+	margin-top: 100px;
+}
